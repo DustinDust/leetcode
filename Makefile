@@ -1,4 +1,4 @@
-P ?= array_string
+DIR ?= array_string
 
 test:
-	go test -v ./${P}/${F}.go ./${P}/${F}_test.go
+	go test -v ./${DIR}/${FILE}.go ./${DIR}/${FILE}_test.go
